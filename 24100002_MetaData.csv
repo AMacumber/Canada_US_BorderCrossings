@@ -1,0 +1,195 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Number of vehicles travelling between Canada and the United States",24100002,427-0002,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2410000201",1;3,"CURRENT - a cube available to the public and that is current",Monthly,1972-01-01,2019-03-01,4
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+1,Geography,,
+2,"Trip characteristics",,
+3,"Length of stay",,
+4,"Mode of transportation",,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+1,Canada,[11124],1,,,,
+1,"Nova Scotia",[12],2,1,,,
+1,"Yarmouth, Nova Scotia",,3,2,,,
+1,"New Brunswick",[13],4,1,,,
+1,"Andover, New Brunswick",,5,4,,,
+1,"Bloomfield, New Brunswick",,6,4,,,
+1,"Campobello, New Brunswick",,7,4,,,
+1,"Centreville, New Brunswick",,8,4,,,
+1,"Clair, New Brunswick",,9,4,,,
+1,"Edmundston, New Brunswick",,10,4,,,
+1,"Forest City, New Brunswick",,11,4,,,
+1,"Fosterville, New Brunswick",,12,4,,,
+1,"Gillespie, New Brunswick",,13,4,,,
+1,"Grand Falls/Grand-Sault, New Brunswick",,14,4,,,
+1,"Milltown, New Brunswick",,15,4,,,
+1,"River de Chute, New Brunswick",,16,4,,,
+1,"St. Andrews, New Brunswick",,17,4,,,
+1,"St. Croix, New Brunswick",,18,4,,,
+1,"St. Leonard, New Brunswick",,19,4,,,
+1,"St. Stephen, New Brunswick",,20,4,,,
+1,"Woodstock Road, New Brunswick",,21,4,,,
+1,Quebec,[24],22,1,,,
+1,"Abercorn, Quebec",,23,22,,,
+1,"Armstrong, Quebec",,24,22,,,
+1,"Beebe, Quebec",,25,22,,,
+1,"Chartierville, Quebec",,26,22,,,
+1,"Clarenceville, Quebec",,27,22,,,
+1,"Covey Hill, Quebec",,28,22,,,
+1,"Daaquam, Quebec",,29,22,,,
+1,"Dundee, Quebec",,30,22,,,
+1,"East Hereford, Quebec",,31,22,,,
+1,"East Pinnacle, Quebec",,32,22,,,
+1,"Franklin Centre, Quebec",,33,22,,,
+1,"Frelighsburg, Quebec",,34,22,,,
+1,"Glen Sutton, Quebec",,35,22,,,
+1,"Hemmingford, Quebec",,36,22,,,
+1,"Herdman, Quebec",,37,22,,,
+1,"Hereford Road, Quebec",,38,22,,,
+1,"Highwater, Quebec",,39,22,,,
+1,"Jamieson's Line, Quebec",,40,22,,,
+1,"Lac Megantic, Quebec",,41,22,,,
+1,"Lacolle Route 15, Quebec",,42,22,,,
+1,"Lacolle Route 221, Quebec",,43,22,,,
+1,"Lacolle Route 223, Quebec",,44,22,,,
+1,"Morses Lines, Quebec",,45,22,,,
+1,"Noyan, Quebec",,46,22,,,
+1,"Phillipsburg, Quebec",,47,22,,,
+1,"Pohenegamook, Quebec",,48,22,,,
+1,"Rock Island Route 55, Quebec",,49,22,,,
+1,"Rock Island Route 143, Quebec",,50,22,,,
+1,"St. Pamphile, Quebec",,51,22,,,
+1,"Ste. Aurelie, Quebec",,52,22,,,
+1,"Stanhope, Quebec",,53,22,,,
+1,"Trout River, Quebec",,54,22,,,
+1,"Woburn, Quebec",,55,22,,,
+1,Ontario,[35],56,1,,,
+1,"Cornwall, Ontario",,57,56,,2,
+1,"Fort Erie, Ontario",,58,56,,,
+1,"Fort Frances, Ontario",,59,56,,,
+1,"Lansdowne, Ontario",,60,56,,,
+1,"Niagara Falls Rainbow, Ontario",,61,56,,,
+1,"Niagara Falls Whirlpool, Ontario",,62,56,,,
+1,"Niagara Falls Queenston, Ontario",,63,56,,,
+1,"Pelee Island, Ontario",,64,56,,,
+1,"Pigeon River, Ontario",,65,56,,,
+1,"Prescott, Ontario",,66,56,,,
+1,"Rainy River, Ontario",,67,56,,,
+1,"Sarnia, Ontario",,68,56,,,
+1,"Sault Ste. Marie, Ontario",,69,56,,,
+1,"Sombra, Ontario",,70,56,,,
+1,"Walpole Island, Ontario",,71,56,,,
+1,"Windsor Tunnel, Ontario",,72,56,,,
+1,Manitoba,[46],73,1,,,
+1,"Boissevain, Manitoba",,74,73,,,
+1,"Cartwright, Manitoba",,75,73,,,
+1,"Coulter, Manitoba",,76,73,,,
+1,"Crystal City, Manitoba",,77,73,,,
+1,"Emerson East, Manitoba",,78,73,,,
+1,"Emerson-West Lynne, Manitoba",,79,73,,,
+1,"Goodlands, Manitoba",,80,73,,,
+1,"Gretna, Manitoba",,81,73,,,
+1,"Lena, Manitoba",,82,73,,,
+1,"Lyleton, Manitoba",,83,73,,,
+1,"Piney, Manitoba",,84,73,,,
+1,"Snowflake, Manitoba",,85,73,,,
+1,"South Junction, Manitoba",,86,73,,,
+1,"Sprague, Manitoba",,87,73,,,
+1,"Tolstoi, Manitoba",,88,73,,,
+1,"Windygates, Manitoba",,89,73,,,
+1,"Winkler, Manitoba",,90,73,,,
+1,Saskatchewan,[47],91,1,,,
+1,"Big Beaver, Saskatchewan",,92,91,,,
+1,"Carievale, Saskatchewan",,93,91,,,
+1,"Climax, Saskatchewan",,94,91,,,
+1,"Coronach, Saskatchewan",,95,91,,,
+1,"Estevan, Saskatchewan",,96,91,,,
+1,"Monchy, Saskatchewan",,97,91,,,
+1,"Northgate, Saskatchewan",,98,91,,,
+1,"North Portal, Saskatchewan",,99,91,,,
+1,"Oungre, Saskatchewan",,100,91,,,
+1,"Regway, Saskatchewan",,101,91,,,
+1,"Torquay, Saskatchewan",,102,91,,,
+1,"West Poplar River, Saskatchewan",,103,91,,,
+1,"Willow Creek, Saskatchewan",,104,91,,,
+1,Alberta,[48],105,1,,,
+1,"Aden, Alberta",,106,105,,,
+1,"Carway, Alberta",,107,105,,,
+1,"Chief Mountain, Alberta",,108,105,,,
+1,"Coutts, Alberta",,109,105,,,
+1,"Del Bonita, Alberta",,110,105,,,
+1,"Wild Horse, Alberta",,111,105,,,
+1,"British Columbia",[59],112,1,,,
+1,"Aldergrove, British Columbia",,113,112,,,
+1,"Boundary Bay, British Columbia",,114,112,,,
+1,"Carson, British Columbia",,115,112,,,
+1,"Cascade, British Columbia",,116,112,,,
+1,"Chopaka, British Columbia",,117,112,,,
+1,"Douglas, British Columbia",,118,112,,,
+1,"Huntingdon, British Columbia",,119,112,,,
+1,"Kingsgate, British Columbia",,120,112,,,
+1,"Midway, British Columbia",,121,112,,,
+1,"Nelway, British Columbia",,122,112,,,
+1,"Osoyoos, British Columbia",,123,112,,,
+1,"Pacific Highway, British Columbia",,124,112,,,
+1,"Paterson, British Columbia",,125,112,,,
+1,"Prince Rupert, British Columbia",,126,112,,,
+1,"Roosville, British Columbia",,127,112,,,
+1,"Rykerts, British Columbia",,128,112,,,
+1,"Sidney, British Columbia",,129,112,,,
+1,"Stewart, British Columbia",,130,112,,,
+1,"Victoria, British Columbia",,131,112,,,
+1,"Waneta, British Columbia",,132,112,,,
+1,Yukon,[60],133,1,,,
+1,"Beaver Creek, Yukon",,134,133,,,
+1,"Dawson/Little Gold, Yukon",,135,133,,,
+1,"Pleasant Camp, Yukon",,136,133,,,
+1,"Whitehorse, Yukon",,137,133,,,
+1,"Toronto Seaport/Island Airport, Ontario",,138,56,,,
+1,"St. Stephen 3rd Bridge, New Brunswick",,139,4,,,
+1,"St. Zacharie, Quebec",,140,22,,4,
+1,"Four Falls, New Brunswick",,141,4,,,
+1,"Point Alexandria, Ontario",,142,56,,,
+2,"Total vehicles entering Canada",,1,,,,
+2,"Total United States vehicles entering",,2,1,,,
+2,"Total Canadian vehicles returning",,3,1,,,
+3,"Length of stay, total",,1,,,,
+3,"Same day",,2,1,,,
+3,"One night",,3,1,,,
+3,"Two or more nights",,4,1,,,
+4,"Mode of transportation, total",,1,,,,
+4,Automobiles,,2,1,,,
+4,Trucks,,3,1,,,
+4,"Other vehicles",,4,1,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published.",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+5005,"Frontier Counts"
+
+"Subject Code","Subject Name"
+24,"Travel and tourism"
+
+"Note ID",Note
+1,"Covers the period 1972 to date monthly data. Prior to 1972 do not coincide with current definitions and methods of collection. Refer to publication 66-201 annual 1972 for further explanation."
+2,"Cornwall, Ontario was closed from June 1st to July 12th, 2009. Data from July 13th to July 30th, 2009 are not available."
+3,"Travel data for NEXUS Highway, which is a program designed to expedite the border clearance process for low-risk, pre-approved travellers into Canada and the United States, are now included. Monthly data has been revised back to January 2010 to reflect this change."
+4,"Effective July 20, 2017, counts for Quebec include the port of entry St. Zacharie, Quebec."
+
+"Correction ID","Correction Date","Correction Note"
+
