@@ -8,7 +8,8 @@
 * Can they be transformed to stationary?
 
 ## Notebooks:
-* Step One: Data wrangling ; Prepare the dataset for analysis
+* Step One: Code_R_mYSQLDatabase ; Save Data to Local Database
+* Step Two: Code_Py_DataWrangling ; Prepare the dataset for analysis
 * Main_BorderCrossing.ipynb ; This is the main dataset, comparing border crossing data to socioeconomic indices
 * Main_Trucking_Transborder.ipynb ; This is a supplemental dataset, extracting a number for trucking to compare to 'Trucks
 * Script_Stationarity.ipynb ; Are the time series stationary?
