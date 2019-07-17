@@ -11,9 +11,10 @@
 * Step One: Code_R_mYSQLDatabase ; Save Data to Local Database
 * Step Two: Code_Py_DataWrangling ; Prepare the dataset for analysis
 * Step Three: Code03_Py_DataExloration ; Visual dataset
-  * Code_EstimateCommercialTrucking ; Verify that 'Trucks' is commercial
-* Step Four: Code04_Py_PlotTimeSeries ; Create time series objects
-* Step Five: Code05_Py_Stationarity ; Test for and transform if needed
+  * Code3b_EstimateCommercialTrucking ; Estimate of commercial traffic
+* Step Four: Code04_Py_TS_Plot ; Create time series objects
+* Step Five: Code05_Py_TS_Stationarity ; Test for stationarity
+* Step Six: Code06_Py_TS_Transformations ; Transform to stationarity
 
 ## Datasets:
 * "Number of vehicles travelling between Canada and the United States", Government of Canada
