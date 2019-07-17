@@ -10,20 +10,19 @@
 ## Notebooks:
 * Step One: Code_R_mYSQLDatabase ; Save Data to Local Database
 * Step Two: Code_Py_DataWrangling ; Prepare the dataset for analysis
-* Main_BorderCrossing.ipynb ; This is the main dataset, comparing border crossing data to socioeconomic indices
-* Main_Trucking_Transborder.ipynb ; This is a supplemental dataset, extracting a number for trucking to compare to 'Trucks
-* Script_Stationarity.ipynb ; Are the time series stationary?
+* Step Three: Code03_Py_DataExloration ; Visual dataset
+  * Code_EstimateCommercialTrucking ; Verify that 'Trucks' is commercial
+* Step Four: Code04_Py_PlotTimeSeries ; Create time series objects
+* Step Five: Code05_Py_Stationarity ; Test for and transform if needed
 
 ## Datasets:
 * "Number of vehicles travelling between Canada and the United States", Government of Canada
 * "Trucking commodity industry activity"
 
-## Files:
-* can_crossings_000.csv ; see Step One: Data Wrangling
-* can_crossings_001.csv ; 2019 removed
-
 ## Utilities
 * Utility_BarChart_GroupedAndStacked ; Ex. Groups for each x-variable, with stacked subgroups
 * Utility_DataExploration ; How to characterise a newly loaded dataset
-* Utility_LoadData ; How to load data into python
+* Utility_LoadData ; How to load data into
+* Utility_Py_MySQL_Database ; Loading and saving data from/to mysql db
+* Utitlity_Py_RemoveColumns_Unique
 * Utility_TimeSeries_Seasonality ; model and remove seasonality from ts
