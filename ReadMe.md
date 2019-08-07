@@ -7,13 +7,33 @@
 * Are the time series (US / CAN vehicles) stationary?
 * Can they be transformed to stationary?
 
-## Notebooks:
-* Step One: Code_R_mYSQLDatabase ; Save Data to Local Database
-* Step Two: Code_Py_DataWrangling ; Prepare the dataset for analysis
-* Step Three: Code03_Py_DataExloration ; Visual dataset
-  * Code3b_EstimateCommercialTrucking ; Estimate of commercial traffic
-* Step Four: Code04_Py_TS_Plot ; Create time series objects
-* Step Five: Code05_Py_TS_Stationarity ; Test for stationarity
+## Pipeline
+
+**Step One: Save Data to Local Database**\
+*Save downloaded dataset to a local MySQL server*
+
+Code: "Code01_R_MySQLDatabase"
+
+**Step Two: Data Wrangling**\
+*Several steps were required prior to being able to perform time series analysis on the dataset. Proving that this was a 'dirty' dataset." The Data wrangling was also informed by 'Data Exploration' (step 3), representing an iterative process between the two.'*
+
+Code: "Code02_Py_DataWrangling"
+
+**Step Three: Data Exploration & Visualization**\
+*Data exploration was used to ascertain the importance of 'mode of transportation', whether 'trucks' reflected commercial shipping traffic (Code 3b), and the variation in number of border points. This informed the 'Data Wrangling' (step 2).*
+
+Code:  Code03_Py_DataExloration & Code03b_EstimateCommercialTrucking
+
+**Step Four: Create time series objects**\
+*After 'Data Wrangling' (Code 2) we create time series objects and visualize Canadian Border Traffic over time.*
+
+Code: Code04_Py_TS_Plot
+
+**Step Five: Test for stationarity**\
+
+Code: Code05_Py_TS_Stationarity
+
+
 * Step Six: Code06_Py_TS_Transformations ; Transform to stationarity
 
 ## Datasets:
